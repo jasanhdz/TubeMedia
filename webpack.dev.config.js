@@ -10,12 +10,12 @@ module.exports = {
     path: path.resolve(__dirname, 'dist'),
     filename: 'js/[name].js'
   },
-  devServer: {
-    port: 9000,
-    publicPath: path.resolve(__dirname, '/dist/'),
-    contentBase: path.join(__dirname, '/'),
-    open: true,
-  },
+  // devServer: {
+  //   port: 9000,
+  //   publicPath: path.resolve(__dirname, '/dist/'),
+  //   contentBase: path.join(__dirname, '/'),
+  //   open: true,
+  // },
   devtool: 'eval-source-map',
   module: {
     rules: [
